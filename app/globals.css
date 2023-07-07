@@ -40,3 +40,9 @@ body {
 .floating {
   animation: 6s ease 0s infinite normal none running floating;
 }
+
+.background-pattern {
+  background: url("/pattern.png");
+  background-repeat: repeat;
+  background-size: 300px;
+}
