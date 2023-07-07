@@ -6,8 +6,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'WebSMS: Allow your business go international.',
-  description: 'Receive SMS from anywhere from the world in your browser: Reserve Phone Numbers in 20+ Countries, Including US 🇺🇸, UK 🇬🇧, and EU 🇪🇺, and Receive OTP and SMS Within Our Application with a flat monthly fee.',
+  title: 'GetSMS: Allow your business go international.',
+  description: 'Receive SMS from anywhere from anywhere in the world: Reserve Phone Numbers in 20+ Countries, Including US 🇺🇸, UK 🇬🇧, and EU 🇪🇺, and Receive OTP and SMS Within Our Application with a flat monthly fee.',
 }
 
 export default function RootLayout({
