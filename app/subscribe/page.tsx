@@ -26,14 +26,14 @@ export default function NewsLetterSignUpForm() {
         </div>
 
         <button
-          className="mt-4 w-full middle none text-center rounded-lg bg-blue-500 py-3.5 px-7 font-sans text-3xl font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none text-dxl"
+          className="mt-4 w-full middle none text-center rounded-lg bg-blue-500 py-3.5 px-7 font-sans text-3xl font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="submit"
         >
           {"✨ Subscribe 💌"}
         </button>
       </form>
-      <h2 className="h2 mt-4">
-        We will only send emails once there news are available, I promise. No
+      <h2 className="h2 mt-4 font-black">
+        We will only send emails once are there news available, I promise 🤝. No
         spam.
       </h2>
     </>

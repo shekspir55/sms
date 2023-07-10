@@ -12,7 +12,7 @@ export const metadata = {
   // smsPOSTBOX
   title: "📮 SMSInbox: Allow your business go international.",
   description:
-    "Receive SMS from anywhere from anywhere in the world: Reserve Phone Numbers in 20+ Countries, Including US 🇺🇸, UK 🇬🇧, and EU 🇪🇺. Receive SMS/OTP with a simple flat monthly fee.",
+    "Receive SMS from anywhere in the world: Reserve Phone Numbers in 20+ Countries, Including US 🇺🇸, UK 🇬🇧, and EU 🇪🇺. Receive SMS/OTP with a simple flat monthly fee.",
 };
 
 const googleID = process.env.GOOGLE_TAG;
