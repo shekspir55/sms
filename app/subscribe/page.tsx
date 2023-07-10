@@ -1,7 +1,7 @@
-export default function NewsLetterSignUpForm() {
-  const mailchimpUrl = process.env.MAILCHIMP_URL;
-  const hiddenFiled = process.env.MAILCHIMP_HIIDEN_INPUT;
+const mailchimpUrl = process.env.MAILCHIMP_URL;
+const hiddenFiled = process.env.MAILCHIMP_HIIDEN_INPUT;
 
+export default function NewsLetterSignUpForm() {
   return (
     <>
       <h1 className="h1">
