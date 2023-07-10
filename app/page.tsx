@@ -5,7 +5,6 @@ export default function Home() {
     <>
       <div className="col-md justify-center flex flex-col">
         <h1 className="h1">
-          Testing deployment
           <b>{metadata.title}</b>
         </h1>
         <h2 className="h3 mt-4">{metadata.description}</h2>
