@@ -16,7 +16,7 @@ export default function Home() {
           <span className="h5"> Special offer </span>
         </h3>
         <a
-          className="mt-4 middle none text-center rounded-lg bg-blue-500 py-3.5 px-7 font-sans text-sm font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none text-4xl"
+          className="mt-4 middle none text-center rounded-lg bg-blue-500 py-3.5 px-7 font-sans text-4xl font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none text-4xl"
           href="/subscribe"
         >
           💫 REGISTER 📮
