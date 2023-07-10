@@ -1,5 +1,6 @@
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import Providers from "./providers";
 
 import { Inter } from "next/font/google";
@@ -8,7 +9,8 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "GetSMS: Allow your business go international.",
+  // smsPOSTBOX
+  title: "📮 GetSMS: Allow your business go international.",
   description:
     "Receive SMS from anywhere from anywhere in the world: Reserve Phone Numbers in 20+ Countries, Including US 🇺🇸, UK 🇬🇧, and EU 🇪🇺. Receive SMS/OTP with a simple flat monthly fee.",
 };
@@ -23,7 +25,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Providers>
-        <body className={inter.className}>{children}</body>
+        <body className={inter.className}>
+          <main className="flex min-h-screen flex-col items-center justify-center p-1 font-mono bg-gray-300 background-pattern">
+            <div className="">
+              <div className="container">
+                <div className="row">{children}</div>
+              </div>
+            </div>
+          </main>
+        </body>
       </Providers>
       <Script
         strategy="afterInteractive"
