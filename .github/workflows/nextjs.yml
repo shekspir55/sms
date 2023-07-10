@@ -31,6 +31,8 @@ jobs:
       name: nextjs
     runs-on: ubuntu-latest
     steps:
+      - name: Testing ENVs
+        run: env
       - name: Checkout
         uses: actions/checkout@v3
       - name: Detect package manager
