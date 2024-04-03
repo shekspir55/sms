@@ -12,12 +12,12 @@ export default function Home() {
           <i>
             <s>20$</s>
           </i>{" "}
-          <b>10$</b>
+          <b>7$</b>
           <span className="h5"> Special offer </span>
         </h3>
         <a
           className="mt-4 middle none text-center rounded-lg bg-blue-500 py-3.5 px-7 font-sans text-4xl font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none text-4xl"
-          href="/subscribe"
+          href="https://get-sms.app/register"
         >
           💫 REGISTER 📮
         </a>
@@ -25,6 +25,7 @@ export default function Home() {
       <div className=" mt-4 col-md d-none d-lg-block flex flex-col">
         <img className="floating" src="/telegram.png" alt="telegram logo" />
       </div>
+      <div></div>
       {/* <div className="container">
         <div className="card">
           <img src="thumbnail.png" alt="" />
