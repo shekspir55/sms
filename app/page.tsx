@@ -25,7 +25,6 @@ export default function Home() {
       <div className=" mt-4 col-md d-none d-lg-block flex flex-col">
         <img className="floating" src="/telegram.png" alt="telegram logo" />
       </div>
-      <div></div>
       {/* <div className="container">
         <div className="card">
           <img src="thumbnail.png" alt="" />
